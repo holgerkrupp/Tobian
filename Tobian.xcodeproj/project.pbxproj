@@ -9,18 +9,24 @@
 /* Begin PBXBuildFile section */
 		482EB4FC2C0304100088957C /* TobianwApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482EB4FB2C0304100088957C /* TobianwApp.swift */; };
 		482EB4FE2C0304100088957C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482EB4FD2C0304100088957C /* ContentView.swift */; };
-		482EB5002C0304100088957C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482EB4FF2C0304100088957C /* Item.swift */; };
+		482EB5002C0304100088957C /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482EB4FF2C0304100088957C /* Song.swift */; };
 		482EB5022C0304120088957C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 482EB5012C0304120088957C /* Assets.xcassets */; };
 		482EB5052C0304120088957C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 482EB5042C0304120088957C /* Preview Assets.xcassets */; };
+		482EB50E2C0305780088957C /* SongEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482EB50D2C0305780088957C /* SongEditorView.swift */; };
+		482EB5122C0375820088957C /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482EB5112C0375820088957C /* PlayerView.swift */; };
+		482EB5142C04A1A80088957C /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482EB5132C04A1A80088957C /* SpeechRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		482EB4F82C0304100088957C /* Tobianw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tobianw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		482EB4F82C0304100088957C /* Tobian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tobian.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		482EB4FB2C0304100088957C /* TobianwApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TobianwApp.swift; sourceTree = "<group>"; };
 		482EB4FD2C0304100088957C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		482EB4FF2C0304100088957C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		482EB4FF2C0304100088957C /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		482EB5012C0304120088957C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		482EB5042C0304120088957C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		482EB50D2C0305780088957C /* SongEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongEditorView.swift; sourceTree = "<group>"; };
+		482EB5112C0375820088957C /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		482EB5132C04A1A80088957C /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +51,7 @@
 		482EB4F92C0304100088957C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				482EB4F82C0304100088957C /* Tobianw.app */,
+				482EB4F82C0304100088957C /* Tobian.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,7 +61,10 @@
 			children = (
 				482EB4FB2C0304100088957C /* TobianwApp.swift */,
 				482EB4FD2C0304100088957C /* ContentView.swift */,
-				482EB4FF2C0304100088957C /* Item.swift */,
+				482EB50D2C0305780088957C /* SongEditorView.swift */,
+				482EB5112C0375820088957C /* PlayerView.swift */,
+				482EB4FF2C0304100088957C /* Song.swift */,
+				482EB5132C04A1A80088957C /* SpeechRecognizer.swift */,
 				482EB5012C0304120088957C /* Assets.xcassets */,
 				482EB5032C0304120088957C /* Preview Content */,
 			);
@@ -73,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		482EB4F72C0304100088957C /* Tobianw */ = {
+		482EB4F72C0304100088957C /* Tobian */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 482EB5082C0304120088957C /* Build configuration list for PBXNativeTarget "Tobianw" */;
+			buildConfigurationList = 482EB5082C0304120088957C /* Build configuration list for PBXNativeTarget "Tobian" */;
 			buildPhases = (
 				482EB4F42C0304100088957C /* Sources */,
 				482EB4F52C0304100088957C /* Frameworks */,
@@ -85,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = Tobianw;
+			name = Tobian;
 			productName = Tobianw;
-			productReference = 482EB4F82C0304100088957C /* Tobianw.app */;
+			productReference = 482EB4F82C0304100088957C /* Tobian.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 482EB4F32C0304100088957C /* Build configuration list for PBXProject "Tobianw" */;
+			buildConfigurationList = 482EB4F32C0304100088957C /* Build configuration list for PBXProject "Tobian" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				482EB4F72C0304100088957C /* Tobianw */,
+				482EB4F72C0304100088957C /* Tobian */,
 			);
 		};
 /* End PBXProject section */
@@ -140,9 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				482EB50E2C0305780088957C /* SongEditorView.swift in Sources */,
 				482EB4FE2C0304100088957C /* ContentView.swift in Sources */,
-				482EB5002C0304100088957C /* Item.swift in Sources */,
+				482EB5002C0304100088957C /* Song.swift in Sources */,
+				482EB5122C0375820088957C /* PlayerView.swift in Sources */,
 				482EB4FC2C0304100088957C /* TobianwApp.swift in Sources */,
+				482EB5142C04A1A80088957C /* SpeechRecognizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +291,8 @@
 				DEVELOPMENT_TEAM = 46D3VYP253;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To listen to the song while singing";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "To detect the current line of the song";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -308,6 +322,8 @@
 				DEVELOPMENT_TEAM = 46D3VYP253;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To listen to the song while singing";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "To detect the current line of the song";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -329,7 +345,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		482EB4F32C0304100088957C /* Build configuration list for PBXProject "Tobianw" */ = {
+		482EB4F32C0304100088957C /* Build configuration list for PBXProject "Tobian" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				482EB5062C0304120088957C /* Debug */,
@@ -338,7 +354,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		482EB5082C0304120088957C /* Build configuration list for PBXNativeTarget "Tobianw" */ = {
+		482EB5082C0304120088957C /* Build configuration list for PBXNativeTarget "Tobian" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				482EB5092C0304120088957C /* Debug */,

@@ -9,10 +9,10 @@ import SwiftUI
 import SwiftData
 
 @main
-struct TobianwApp: App {
+struct TobianApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            Song.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 

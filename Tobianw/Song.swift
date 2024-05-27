@@ -9,8 +9,12 @@ import Foundation
 import SwiftData
 
 @Model
-final class Item {
+final class Song {
     var timestamp: Date
+    var titel: String = ""
+    var lyrics: String = ""
+    
+    var locate: String = Locale.current.description
     
     init(timestamp: Date) {
         self.timestamp = timestamp
